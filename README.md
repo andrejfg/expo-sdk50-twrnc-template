@@ -53,5 +53,5 @@ O aplicativo será iniciado no seu navegador ou em um dispositivo Expo emulado.
   Adicione suas próprias configurações personalizadas em tailwind.config.js. Outras configurações podem ser realizadas, verifique a documentação em <a href="https://github.com/jaredh159/tailwind-react-native-classnames" target="_new">twrnc</a>
 
 📬 Contato
-<li>Nome: André Felipe Guimarães</li><li>E-mail: <a href="mailto:andrefg.dev@gmail.com" target="_new">andrefg.dev@gmail.com</a></li><li>LinkedIn: <a href="[https://www.linkedin.com/seu-linkedin](https://www.linkedin.com/in/andrefg/)" target="_new">andrefg</a></li>
+<li>Nome: André Felipe Guimarães</li><li>E-mail: <a href="mailto:andrefg.dev@gmail.com" target="_new">andrefg.dev@gmail.com</a></li><li>LinkedIn: <a href="https://www.linkedin.com/in/andrefg/" target="_new">andrefg</a></li>
 
