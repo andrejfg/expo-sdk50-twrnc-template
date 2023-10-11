@@ -2,7 +2,11 @@
 module.exports = {
   content: ['./src/**/*.{tsx,jsx}', './app/**/*.{tsx,jsx}'],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        space: 'SpaceMono',
+      },
+    },
   },
   plugins: [],
 }
