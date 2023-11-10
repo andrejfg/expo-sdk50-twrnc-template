@@ -1,57 +1,59 @@
 # expo-sdk49-twrnc-template 
 
-Este projeto foi criado com o objetivo de simplificar e otimizar o processo de configuração de um ambiente de desenvolvimento. Evitando a repetição de trabalho tedioso, oferece um repositório modelo (template) para o Expo SDK 49, com suporte ao Tailwind React Native Classes e configuração de Path Alias para TypeScript.
+This project was created with the goal of simplifying and optimizing the setup process for a development environment. Avoiding the repetition of tedious work, it provides a template repository for Expo SDK 49, with support for Tailwind React Native Classes and Path Alias configuration for TypeScript.
 
-## 🚀 Iniciando
+## 🚀 Getting Started
 
-Instruções passo a passo sobre como configurar o ambiente de desenvolvimento.
+Step-by-step instructions on setting up the development environment.
 
-### Pré-requisitos
+### Prerequisites
 
-Certifique-se de ter as seguintes ferramentas instaladas:
+Make sure you have the following tools installed:
 
 - [Node.js](https://nodejs.org/)
 - [Expo CLI](https://docs.expo.dev/get-started/installation/)
-- Outros pré-requisitos, se aplicável...
+- Other prerequisites, if applicable...
 
-### Instalação
+### Installation
 
-1. Clone este repositório:
+1. Clone this repository:
 
 ```shell
 git clone https://github.com/andrejfg/expo-sdk49-twrnc-template
 ```
-2. Navegue até o diretório do projeto:
+
+2. Navigate to the project directory:
 
 ```shell
 cd expo-sdk49-twrnc-template
 ```
 
-3. Instale as dependências:
+3. Install dependencies:
 
 ```shell
 npm install
 ```
 
-4. Execute o aplicativo:
+4. Run the application:
 
 ```shell
 npm run start
 ```
 
-O aplicativo será iniciado no seu navegador ou em um dispositivo Expo emulado.
+The application will start in your browser or on an emulated Expo device.
 
-## 🛠️ Configurações Adicionais
+## 🛠️ Additional Configurations
 
-1 Path Alias com TypeScript
-  Crie suas próprias rotas configurando o arquivo babel.config.js e tsconfig.json
+1. Path Alias with TypeScript
+   Create your own routes by configuring the babel.config.js and tsconfig.json files.
 
-2 Expo Project Configuration
-  O projeto está com icones e nome genéricos referentes ao processo de criação do projeto Expo, configure suas próprias informações app.json
-  
-3 Tailwind Configuration
-  Adicione suas próprias configurações personalizadas em tailwind.config.js. Outras configurações podem ser realizadas, verifique a documentação em <a href="https://github.com/jaredh159/tailwind-react-native-classnames" target="_new">twrnc</a>
+2. Expo Project Configuration
+   The project has generic icons and names related to the Expo project creation process; configure your own information in app.json.
 
-📬 Contato
-<li>Nome: André Felipe Guimarães</li><li>E-mail: <a href="mailto:andrefg.dev@gmail.com" target="_new">andrefg.dev@gmail.com</a></li><li>LinkedIn: <a href="https://www.linkedin.com/in/andrefg/" target="_new">andrefg</a></li>
+3. Tailwind Configuration
+   Add your custom settings in tailwind.config.js. Other configurations can be made; check the documentation at <a href="https://github.com/jaredh159/tailwind-react-native-classnames" target="_new">twrnc</a>.
 
+📬 Contact
+- Name: André Felipe Guimarães
+- Email: [andrefg.dev@gmail.com](mailto:andrefg.dev@gmail.com)
+- LinkedIn: [andrefg](https://www.linkedin.com/in/andrefg/)
