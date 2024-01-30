@@ -5,7 +5,7 @@ import { MonoText } from '@/components/StyledText'
 
 export default function TabTwoScreen() {
   return (
-    <View style={tw`flex-1 items-center justify-center`}>
+    <View style={tw`flex-1 items-center justify-center gap-2`}>
       <Text style={tw`text-xl font-bold`}>Tab Two</Text>
       <MonoText style={tw`text-base`}>Tab Two Info</MonoText>
     </View>

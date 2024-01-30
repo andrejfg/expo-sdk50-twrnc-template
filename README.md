@@ -1,6 +1,6 @@
-# expo-sdk49-twrnc-template 
+# expo-sdk50-twrnc-template 
 
-This project was created with the goal of simplifying and optimizing the setup process for a development environment. Avoiding the repetition of tedious work, it provides a template repository for Expo SDK 49, with support for Tailwind React Native Classes and Path Alias configuration for TypeScript.
+This project was created with the goal of simplifying and optimizing the setup process for a development environment. Avoiding the repetition of tedious work, it provides a template repository for Expo SDK 50, with support for Tailwind React Native Classes and Path Alias configuration for TypeScript.
 
 ## 🚀 Getting Started
 
@@ -19,13 +19,13 @@ Make sure you have the following tools installed:
 1. Clone this repository:
 
 ```shell
-git clone https://github.com/andrejfg/expo-sdk49-twrnc-template
+git clone https://github.com/andrejfg/expo-sdk50-twrnc-template
 ```
 
 2. Navigate to the project directory:
 
 ```shell
-cd expo-sdk49-twrnc-template
+cd expo-sdk50-twrnc-template
 ```
 
 3. Install dependencies:

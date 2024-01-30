@@ -1,3 +1,4 @@
+import tw from '@/lib/tailwind'
 import FontAwesome from '@expo/vector-icons/FontAwesome'
 import { Tabs } from 'expo-router'
 
@@ -5,7 +6,7 @@ function TabBarIcon(props: {
   name: React.ComponentProps<typeof FontAwesome>['name']
   color: string
 }) {
-  return <FontAwesome size={28} style={{ marginBottom: -3 }} {...props} />
+  return <FontAwesome {...props} style={tw`-mb-1 text-2xl`} />
 }
 
 export default function TabLayout() {
