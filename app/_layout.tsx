@@ -1,9 +1,11 @@
+import { LightTheme, DarkTheme } from '@/constants/Colors'
 import tw from '@/lib/tailwind'
 import FontAwesome from '@expo/vector-icons/FontAwesome'
+import { ThemeProvider } from '@react-navigation/native'
 import { useFonts } from 'expo-font'
 import { SplashScreen, Stack } from 'expo-router'
 import { useEffect } from 'react'
-import { SafeAreaView } from 'react-native'
+import { SafeAreaView, useColorScheme } from 'react-native'
 
 export {
   // Catch any errors thrown by the Layout component.
@@ -43,11 +45,14 @@ export default function RootLayout() {
 }
 
 function RootLayoutNav() {
+  const colorScheme = useColorScheme()
   return (
     <SafeAreaView style={tw`flex-1`}>
-      <Stack>
-        <Stack.Screen name="(tabs)" options={{ headerShown: false }} />
-      </Stack>
+      <ThemeProvider value={colorScheme === 'dark' ? DarkTheme : LightTheme}>
+        <Stack>
+          <Stack.Screen name="(tabs)" options={{ headerShown: false }} />
+        </Stack>
+      </ThemeProvider>
     </SafeAreaView>
   )
 }
